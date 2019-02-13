@@ -1,7 +1,7 @@
 # My-AndroidProjects-aidlDemo
 #调用方法
 
-@
+
 McUtils.message(ri)
                         .url(url)
                         .tag(this)
@@ -12,7 +12,6 @@ McUtils.message(ri)
                             public void onFinish(final String response) {
                                 tv.setText("获取数据结果：" + response);
                             }
-
                             @Override
                             public void onError(String response) {
                                 tv.setText("获取数据结果：" + response);
